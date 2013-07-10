@@ -34,10 +34,23 @@
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed site">
 	<header id="masthead" class="site-header" role="banner">
-		<hgroup>
-			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
-		</hgroup>
+
+		<!-- Swap out normal header for site-wide library image map header -->
+		<div style="text-align:center; width:985px; margin-left:auto; margin-right:auto;">
+		<img id="Image-Maps_8201301051835069" src="http://library.fullerton.edu/_resources/img/libraryblog-header.png" usemap="#Image-Maps_8201301051835069" border="0" width="985" height="150" alt="" />
+		<map id="_Image-Maps_8201301051835069" name="Image-Maps_8201301051835069">
+		<area shape="rect" coords="10,4,386,23" href="http://www.fullerton.edu/" alt="California State University Fullerton" title="California State University Fullerton"    />
+		<area shape="rect" coords="779,4,881,21" href="http://www.fullerton.edu/a-z.asp" alt="CSUF A to Z Index" title="CSUF A to Z Index"    />
+		<area shape="rect" coords="886,4,976,21" href="http://google.fullerton.edu/search?site=default_collection&client=csuf_frontend&output=xml_no_dtd&proxystylesheet=csuf_frontend&proxycustom=%3CHOME/%3E" alt="Search CSUF" title="Search CSUF"    />
+		<area shape="rect" coords="6,50,227,88" href="http://www.library.fullerton.edu" alt="Pollak Library" title="Pollak Library"    />
+		<area shape="rect" coords="22,117,112,145" href="http://www.library.fullerton.edu/research/" alt="Library Research" title="Library Research"    />
+		<area shape="rect" coords="118,117,208,145" href="http://www.library.fullerton.edu/services/" alt="Library Services" title="Library Services"    />
+		<area shape="rect" coords="212,117,283,145" href="http://www.library.fullerton.edu/visiting/" alt="Visiting the Library" title="Visiting the Library"    />
+		<area shape="rect" coords="288,117,347,145" href="http://www.library.fullerton.edu/about/" alt="About the Library" title="About the Library"    />
+		<area shape="rect" coords="355,117,414,145" href="http://www.library.fullerton.edu/giving/" alt="Giving to the Library" title="Giving to the Library"    />
+		<area shape="rect" coords="983,148,985,150" href="http://www.image-maps.com/index.php?aff=mapped_users_8201301051835069" alt="Image Map" title="Image Map" />
+		</map>
+		</div>
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<h3 class="menu-toggle"><?php _e( 'Menu', 'twentytwelve' ); ?></h3>

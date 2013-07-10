@@ -68,13 +68,13 @@ footer[role="contentinfo"] {
 
 /* *** Widget Customizations *** */
 
-/* Ports in library website-tyled Hours and Help icons */
+/* Ports in library website-styled Hours and Help icons */
 #iconHoursHelp {background-image:url("http://www.library.fullerton.edu/_resources/img/icon-hours-help.png"); background-position:left center; background-repeat:no-repeat; min-height:36px; background-color:transparent;}
 	#iconHoursHelp a {color:#fff; width:80px; font-weight:bold; font-size:100%; display:block; line-height:1; float:left;}
 	#lnkHours {text-align:left; padding-left:10px; padding-top:4px;}
 	#lnkChat {text-align:left; padding-left:10px; padding-top:4px;}
 
-
+/* Ports in library website styling for widget titles */
 .widget-area .widget h3 {
 	margin-bottom: 12px;
 	margin-bottom: 1.428571429rem;

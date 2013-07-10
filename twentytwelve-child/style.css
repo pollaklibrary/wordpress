@@ -1,0 +1,15 @@
+/*
+Theme Name:     Twenty Twelve Child
+Theme URI:      http://wordpress.org/themes/twentytwelve
+Description:    Child theme for the Twenty Twelve theme
+Author:         Colleen Greene
+Author URI:     http://www.library.fullerton.edu/about/profiles/cgreene/
+Template:       twentytwelve                             
+Version:        3.5.2
+*/
+
+/* Imports Parent Theme Style Sheet */
+@import url("../twentytwelve/style.css");
+
+/* *** DO NOT ADD CUSTOM CSS BEFORE THIS LINE *** */
+

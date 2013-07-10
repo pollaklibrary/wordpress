@@ -92,6 +92,9 @@ footer[role="contentinfo"] {
 	#lnkHours {text-align:left; padding-left:10px; padding-top:4px;}
 	#lnkChat {text-align:left; padding-left:10px; padding-top:4px;}
 
+/* Fixes theme p styling that displays underline under icon links */
+.iconsSocialMedia a {text-decoration: none !important;}
+
 /* Ports in library website styling for widget titles */
 .widget-area .widget h3 {
 	margin-bottom: 5px;

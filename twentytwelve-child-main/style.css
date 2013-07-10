@@ -79,8 +79,8 @@ footer[role="contentinfo"] {
 
 /* Ports in library website styling for widget titles */
 .widget-area .widget h3 {
-	margin-bottom: 12px;
-	margin-bottom: 1.428571429rem;
+	margin-bottom: 5px;
+	margin-bottom: 0.625rem;
 	text-transform:uppercase; 
 	color:#326781; 
 	border-bottom:1px solid #326781;
@@ -95,5 +95,10 @@ footer[role="contentinfo"] {
 	margin-bottom:6px;
 	font-size:80%;
 	line-height:1.4em;}
+
+.widget-area .widget a{
+	color:#06c;
+	text-decoration:underline;
+	}
 
 

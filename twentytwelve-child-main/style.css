@@ -1,10 +1,11 @@
 /*
 Theme Name:     Twenty Twelve Child Main
-Theme URI:      http://wordpress.org/themes/twentytwelve
+Theme URI:      https://github.com/pollaklibrary/Wordpress/tree/master/twentytwelve-child-main
 Description:    Main library child theme for the Twenty Twelve theme
-Author:         Colleen Greene
+Author:         Colleen Greene (cgreene@fullerton.edu)
 Author URI:     http://www.library.fullerton.edu/about/profiles/cgreene/
-Template:       twentytwelve                             
+Template:       twentytwelve
+Template URI:   http://wordpress.org/themes/twentytwelve                           
 Version:        3.5.2
 */
 
@@ -35,17 +36,17 @@ Version:        3.5.2
 	}
 
 /* Matches main body links to library website */
-body.custom-font-enabled {
-	font-family: Arial, Helvetica, sans-serif;
-}
-a {
-	color:#06c;
-	text-decoration:underline;
-}
-a:hover {
-	color:#f60;
-	text-decoration:underline;
-}
+	body.custom-font-enabled {
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	a {
+		color:#06c;
+		text-decoration:underline;
+	}
+	a:hover {
+		color:#f60;
+		text-decoration:underline;
+	}
 
 /* Match site padding to library website, makes wrapper same exact width as header */
 	body .site {

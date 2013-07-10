@@ -17,7 +17,7 @@ Version:        3.5.2
 /* Minimum width of 960 pixels. */
 @media screen and (min-width: 960px) {
 	body {
-		background-color: #e6e6e6;
+		background-color: #103d74 !important;
 	}
 	body .site {
 		padding: 0 40px;

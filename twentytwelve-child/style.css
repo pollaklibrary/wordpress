@@ -14,8 +14,17 @@ Version:        3.5.2
 /* *** DO NOT ADD CUSTOM CSS BEFORE THIS LINE *** */
 
 
-/* Minimum width of 960 pixels. */
-@media screen and (min-width: 960px) {
+/* Minimum width of 600 pixels. */
+@media screen and (min-width: 600px) {
+	.site {
+		  max-width: 985px;
+		  max-width: 70.35714285714286rem;
+		}
+	.ie .site {
+			max-width: 985px;
+		   }
+
+/* Match site background and padding to library website */
 	body {
 		background:url("http://www.fullerton.edu/core/_default/i/bg-body.jpg") top repeat-x !important;
 		background-color:transparent !important;
@@ -30,3 +39,7 @@ Version:        3.5.2
 		box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
 	}
 
+/* Footer Customizations */
+footer[role="contentinfo"] {
+	max-width: 985px; */ Modify width */
+}

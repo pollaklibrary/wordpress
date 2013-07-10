@@ -33,6 +33,21 @@ Version:        3.5.2
 		font-family: Arial, Helvetica, sans-serif;
 		font-size:14px;
 	}
+
+/* Matches main body links to library website */
+body.custom-font-enabled {
+	font-family: Arial, Helvetica, sans-serif;
+}
+a {
+	color:#06c;
+	text-decoration:underline;
+}
+a:hover {
+	color:#f60;
+	text-decoration:underline;
+}
+
+/* Match site padding to library website, makes wrapper same exact width as header */
 	body .site {
 		*/ padding: 0 40px;
 		padding: 0 2.857142857rem; */
@@ -93,11 +108,15 @@ footer[role="contentinfo"] {
 	background-position:5px 7px;
 	padding-left:15px;
 	margin-bottom:6px;
-	font-size:80%;
+	font-size:85%;
 	line-height:1.4em;}
 
 .widget-area .widget a{
 	color:#06c;
+	}
+
+.widget-area .widget a:hover {
+	color:#f60;
 	text-decoration:underline;
 	}
 

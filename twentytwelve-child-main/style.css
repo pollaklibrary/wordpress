@@ -1,7 +1,7 @@
 /*
-Theme Name:     Twenty Twelve Child
+Theme Name:     Twenty Twelve Child Main
 Theme URI:      http://wordpress.org/themes/twentytwelve
-Description:    Child theme for the Twenty Twelve theme
+Description:    Main library child theme for the Twenty Twelve theme
 Author:         Colleen Greene
 Author URI:     http://www.library.fullerton.edu/about/profiles/cgreene/
 Template:       twentytwelve                             
@@ -16,8 +16,8 @@ Version:        3.5.2
 
 /* *** SITE-WIDE CUSTOMIZATIONS *** */
 
-/* Sets site Minimum width at 600 pixels, and maximum width at 985 pixels */
-@media screen and (min-width: 600px) {
+/* Sets site Minimum width at 960 pixels, and maximum width at 985 pixels */
+@media screen and (min-width: 960px) {
 	.site {
 		  max-width: 985px;
 		  max-width: 70.35714285714286rem;
@@ -60,7 +60,17 @@ Version:        3.5.2
 
 /* *** Footer Customizations ***  */
 
-/* Exapands footer width to 985 pixels */
+/* Expands footer width to 985 pixels */
 footer[role="contentinfo"] {
 	max-width: 985px; */ Modify width */
 }
+
+
+/* *** Widget Customizations *** */
+
+/* Ports in library website-tyled Hours and Help icons */
+#iconHoursHelp {background-image:url("http://www.library.fullerton.edu/_resources/img/icon-hours-help.png"); background-position:left center; background-repeat:no-repeat; min-height:36px; background-color:transparent;}
+	#iconHoursHelp a {color:#fff; width:80px; font-weight:bold; font-size:100%; display:block; line-height:1; float:left;}
+	#lnkHours {text-align:left; padding-left:10px; padding-top:4px;}
+	#lnkChat {text-align:left; padding-left:10px; padding-top:4px;}
+

@@ -33,7 +33,6 @@
 
 <body <?php body_class(); ?>>
 
-
  <div id="macrobar">
          <div class="wrap">
             <div class="gutter">
@@ -48,11 +47,8 @@
          </div>
       </div>
 
-
 <div id="page" class="hfeed site">
 	<header id="masthead" class="site-header" role="banner">
-
-
 
 		<!-- Swap out normal header for site-wide library image map header -->
 		<div style="text-align:center; width:985px; margin-left:auto; margin-right:auto;">

@@ -131,19 +131,7 @@ footer[role="contentinfo"] {
 	text-decoration:underline;
 	}
 
-
-/* =GUTTER: Creates 10px #fff gutter between the page background and the primary page content 
----------------------------------------------*/
-.gutter {
-	width:960px;
-	margin:0 auto;}
-	#content .gutter {
-		padding-bottom:10px;
-		background-color:#fff;}
-
-/*============================================
-=MACROBAR
-============================================*/
+/* *** CSUF MACROBAR AT TOP OF SITE *** */
 #macrobar {
 	min-height:35px;
 	color:#fff;
@@ -197,3 +185,5 @@ footer[role="contentinfo"] {
 #wordmark {	padding:10px 0;	font-family:"Times New Roman", Times, serif; font-size:87.5%; font-weight:400; letter-spacing:1px; text-transform:uppercase;}
 #wordmark a {color:#fff;}
 */
+
+

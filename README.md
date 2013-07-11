@@ -12,9 +12,9 @@ We provide NO WARRANTY; use at your own risk.
 
 The files contained in this repository are for use in the Wordpress content management system, which is available free under a GPL license at http://wordpress.org.
 
-Questions or Comments?
-Contact: Colleen Greene, MLIS
-Systems Librarian
-Pollak Library, Cal State Fullerton 
-www.library.fullerton.edu 
+Questions or Comments?<br />
+Contact: Colleen Greene, MLIS<br />
+Systems Librarian<br />
+Pollak Library, Cal State Fullerton <br />
+www.library.fullerton.edu <br />
 cgreene at fullerton dot edu

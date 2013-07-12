@@ -33,7 +33,8 @@
 
 <body <?php body_class(); ?>>
 
- <div id="macrobar">
+<!-- Added in CSUF header nav bar to match website branding -->
+<div id="macrobar">
          <div class="wrap">
             <div class="gutter">
                <h3 id="wordmark">
@@ -45,66 +46,40 @@
 				</ul>
             </div>
          </div>
-      </div>
+</div>
 
 <div id="page" class="hfeed site">
 	<header id="masthead" class="site-header" role="banner">
 
-		<!-- Swap out normal header for site-wide library image map header -->
+		<!-- Header Image Map to Match Library Website Branding -->
 		<div style="text-align:center; width:985px; margin-left:auto; margin-right:auto;">
-		<img id="Image-Maps_8201301051835069" src="/wp-content/uploads/2013/07/libraryblog-header.png" usemap="#Image-Maps_8201301051835069" border="0" width="985" height="150" alt="" />
-		<map id="_Image-Maps_8201301051835069" name="Image-Maps_8201301051835069">
-		<area shape="rect" coords="6,50,227,88" href="http://www.library.fullerton.edu" alt="Pollak Library" title="Pollak Library"    />
-		<area shape="rect" coords="22,117,112,145" href="http://www.library.fullerton.edu/research/" alt="Library Research" title="Library Research"    />
-		<area shape="rect" coords="118,117,208,145" href="http://www.library.fullerton.edu/services/" alt="Library Services" title="Library Services"    />
-		<area shape="rect" coords="212,117,283,145" href="http://www.library.fullerton.edu/visiting/" alt="Visiting the Library" title="Visiting the Library"    />
-		<area shape="rect" coords="288,117,347,145" href="http://www.library.fullerton.edu/about/" alt="About the Library" title="About the Library"    />
-		<area shape="rect" coords="355,117,414,145" href="http://www.library.fullerton.edu/giving/" alt="Giving to the Library" title="Giving to the Library"    />
-		<area shape="rect" coords="983,148,985,150" href="http://www.image-maps.com/index.php?aff=mapped_users_8201301051835069" alt="Image Map" title="Image Map" />
+		<img id="Image-Maps_3201307121751264" src="http://www.library.fullerton.edu/_resources/img/libraryblog-header.png" usemap="#Image-Maps_3201307121751264" border="0" width="985" height="122" alt="" />
+		<map id="_Image-Maps_3201307121751264" name="Image-Maps_3201307121751264">
+		<area shape="rect" coords="10,10,225,60" href="http://www.library.fullerton.edu/" alt="Pollak Library" title="Pollak Library"    />
+		<area shape="rect" coords="19,87,114,117" href="http://www.library.fullerton.edu/research/" alt="Library Research" title="Library Research"    />
+		<area shape="rect" coords="118,87,206,117" href="http://www.library.fullerton.edu/services/" alt="Library Services" title="Library Services"    />
+		<area shape="rect" coords="210,86,283,116" href="http://www.library.fullerton.edu/visiting/" alt="Visiting the Library" title="Visiting the Library"    />
+		<area shape="rect" coords="285,87,347,117" href="http://www.library.fullerton.edu/about/" alt="About the Library" title="About the Library"    />
+		<area shape="rect" coords="354,84,416,114" href="http://www.library.fullerton.edu/giving/" alt="Giving to the Library" title="Giving to the Library"    />
+		<area shape="rect" coords="476,87,727,117" href="http://libraryblogs.fullerton.edu" alt="http://libraryblogs.fullerton.edu" title="http://libraryblogs.fullerton.edu"    />
+		<area shape="rect" coords="983,120,985,122" href="http://www.image-maps.com/index.php?aff=mapped_users_3201307121751264" alt="Image Map" title="Image Map" />
 		</map>
 		</div>
 
-
-
-
-            <div id="sitenav" class="navbar " role="navigation"><!--  - - Put code in that you want to publish - - --><ul>
-                  <li id="navResearch">
-                     <a href="http://www.library.fullerton.edu/research/">Research</a>
-                  </li>
-                  <li id="navServices">
-                     <a href="http://www.library.fullerton.edu/services/">Services</a>
-                  </li>
-                  <li id="navInside">
-                     <a href="http://www.library.fullerton.edu/visiting/">Visiting</a>
-                  </li>
-                  <li id="navAbout">
-                     <a href="http://www.library.fullerton.edu/about/">About</a>
-                  </li>
-                  <li id="navGiving">
-                     <a href="http://www.library.fullerton.edu/giving/">Giving</a>
-                  </li>
-               </ul></div>
-
-
-
-		<nav id="site-navigation" class="main-navigation" role="navigation">
-			<h3 class="menu-toggle"><?php _e( 'Menu', 'twentytwelve' ); ?></h3>
-			<a class="assistive-text" href="#content" title="<?php esc_attr_e( 'Skip to content', 'twentytwelve' ); ?>"><?php _e( 'Skip to content', 'twentytwelve' ); ?></a>
-			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
-		</nav><!-- #site-navigation -->
-
-		<?php $header_image = get_header_image();
+		<!-- Not using Wordpress header function since using above image map instead. -->
+		<!--<?php $header_image = get_header_image();
 		if ( ! empty( $header_image ) ) : ?>
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo esc_url( $header_image ); ?>" class="header-image" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="" /></a>
-		<?php endif; ?>
+		<?php endif; ?>-->
+
 	</header><!-- #masthead -->
 
-
+		<!-- Moved default site navigation below the header -->
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<h3 class="menu-toggle"><?php _e( 'Menu', 'twentytwelve' ); ?></h3>
 			<a class="assistive-text" href="#content" title="<?php esc_attr_e( 'Skip to content', 'twentytwelve' ); ?>"><?php _e( 'Skip to content', 'twentytwelve' ); ?></a>
 			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
 		</nav><!-- #site-navigation -->
 
+<div id="main" class="wrapper">
 
-	<div id="main" class="wrapper">

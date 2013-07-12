@@ -64,6 +64,29 @@
 		</map>
 		</div>
 
+
+
+
+            <div id="sitenav" class="navbar " role="navigation"><!--  - - Put code in that you want to publish - - --><ul>
+                  <li id="navResearch">
+                     <a href="http://www.library.fullerton.edu/research/">Research</a>
+                  </li>
+                  <li id="navServices">
+                     <a href="http://www.library.fullerton.edu/services/">Services</a>
+                  </li>
+                  <li id="navInside">
+                     <a href="http://www.library.fullerton.edu/visiting/">Visiting</a>
+                  </li>
+                  <li id="navAbout">
+                     <a href="http://www.library.fullerton.edu/about/">About</a>
+                  </li>
+                  <li id="navGiving">
+                     <a href="http://www.library.fullerton.edu/giving/">Giving</a>
+                  </li>
+               </ul></div>
+
+
+
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<h3 class="menu-toggle"><?php _e( 'Menu', 'twentytwelve' ); ?></h3>
 			<a class="assistive-text" href="#content" title="<?php esc_attr_e( 'Skip to content', 'twentytwelve' ); ?>"><?php _e( 'Skip to content', 'twentytwelve' ); ?></a>
@@ -75,5 +98,13 @@
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo esc_url( $header_image ); ?>" class="header-image" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="" /></a>
 		<?php endif; ?>
 	</header><!-- #masthead -->
+
+
+		<nav id="site-navigation" class="main-navigation" role="navigation">
+			<h3 class="menu-toggle"><?php _e( 'Menu', 'twentytwelve' ); ?></h3>
+			<a class="assistive-text" href="#content" title="<?php esc_attr_e( 'Skip to content', 'twentytwelve' ); ?>"><?php _e( 'Skip to content', 'twentytwelve' ); ?></a>
+			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
+		</nav><!-- #site-navigation -->
+
 
 	<div id="main" class="wrapper">

@@ -132,6 +132,26 @@ footer[role="contentinfo"] {
 	}
 
 /* *** CSUF MACROBAR AT TOP OF SITE *** */
+
+/* =WRAP: Assigns fixed width and centers layout. Background images on body will appear behind content contained within a .wrap
+			Elements not contained within a wrap will fill the browser window, e.g. default footer
+---------------------------------------------*/
+.wrap {
+	width:980px;
+	margin:0 auto;}
+	#content.wrap {
+		width:1000px;
+		background:url("http://www.fullerton.edu/core/_default/i/bg-shade.png") no-repeat top transparent;}
+
+/* =GUTTER: Creates 10px #fff gutter between the page background and the primary page content 
+---------------------------------------------*/
+.gutter {
+	width:960px;
+	margin:0 auto;}
+	#content .gutter {
+		padding-bottom:10px;
+		background-color:#fff;}
+
 #macrobar {
 	min-height:35px;
 	color:#fff;
@@ -140,7 +160,8 @@ footer[role="contentinfo"] {
 	#macrobar .gutter {position:relative;}
 	#macrobar h3 {
 		overflow:hidden;
-		float:left;}
+		float:left;
+		}
 #macronav {
 	float:right;
 	padding-top:8px;

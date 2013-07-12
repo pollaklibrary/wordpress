@@ -74,6 +74,7 @@ Version:        3.5.2
 .site-header {
 	padding: 0;
 	padding: 0;
+	background-color:#0F3C73;
 }
 
 
@@ -208,3 +209,32 @@ footer[role="contentinfo"] {
 */
 
 
+
+/* =SITENAV: #sitenav denotes primary site navigation
+.navbar class can be applied to any parent div to create a horizontal navigation bar
+---------------------------------------------*/
+.navbar {
+	clear:both;
+	float:left}
+	.navbar ul {
+		display:inline;
+		float:left;
+		padding-left:0;
+		color:#fff;}	
+		.navbar ul li {display: inline}	
+			.navbar ul li a {
+				display:block;
+				float:left;
+				padding:8px 12px;
+				margin-right:1px;
+				text-decoration:none;
+				text-transform:uppercase;
+				color:#fff;
+				background:url("http://www.fullerton.edu/core/_default/i/bg-navbar-tab.png") top transparent;}
+				.navbar ul li.last a {
+					border-right:none;}
+			.navbar ul li a:focus, .navbar ul li a:hover {
+				text-decoration:underline;
+				color:#666;
+				background-color:#fff;
+				background-image:none;}	

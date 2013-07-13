@@ -2,8 +2,8 @@
 
 //Add in your custom code below here
 
-/* Controls the size of the header */
-/* Test if currently using, since not using the regular header function in header.php */
+<!-- Controls the size of the header -->
+<!-- Test if currently using, since not using the regular header function in header.php -->
 function twentytwelvechild_custom_header_setup() {
 	$header_args = array( 'height' => 122, 'width' => 985 );
 	add_theme_support( 'custom-header', $header_args );

@@ -17,12 +17,12 @@ get_header(); ?>
 				<?php get_template_part( 'content', get_post_format() ); ?>
 
 
-				/* Adds a default branded thumbnail image if no featured image selected. */		
-				<?php if ( has_post_thumbnail() ) {
-					the_post_thumbnail();
-					} else { ?>
-					<img src="<?php bloginfo('template_directory'); ?>/images/default-image.png" alt="<?php the_title(); ?>" />
-				<?php } ?>
+
+
+
+
+
+
 
 				<nav class="nav-single">
 					<h3 class="assistive-text"><?php _e( 'Post navigation', 'twentytwelve' ); ?></h3>

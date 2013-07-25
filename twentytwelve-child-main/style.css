@@ -133,6 +133,15 @@ footer[role="contentinfo"] {
 	}
 
 
+/* *** META CUSTOMIZATIONS *** */
+
+/* Hides the "Leave a Reply" link displayed in excerpts and in the post heading. But keeps comment box visible. */
+#content .comments-link {
+    display: none;
+}
+
+
+
 
 /* ************************ START OF SELECT CSUF.CSS ************************ */
 /* Porting in only bits of csuf.css instead of calling it via an import, since some of csuf.ss might clobber Wordpress theme css. */

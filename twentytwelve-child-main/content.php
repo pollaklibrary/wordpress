@@ -30,7 +30,7 @@
 			<?php endif; // comments_open() ?>
 		</header><!-- .entry-header -->
 
-		<?php if ( is_search() || is_archive() || is_author()  ) : // Only display Excerpts for Search ?>
+		<?php if ( is_search() || is_archive() || is_author() || is_tag() || is_home()  ) : // Only display Excerpts for Search ?>
 		<div class="entry-summary">
 			<?php the_excerpt(); ?>
 		</div><!-- .entry-summary -->

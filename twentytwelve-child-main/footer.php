@@ -14,7 +14,7 @@
 	<footer id="colophon" role="contentinfo">
 		<div class="site-info">
 
-	<strong><center>(c) 2008-2013 by the Pollak Library | <a href="/wp-login.php">Wordpress Login</a></center></strong>
+	<center>(c) 2008-2013 by the Pollak Library | <a href="/wp-login.php">Wordpress Login</a></center>
 
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->

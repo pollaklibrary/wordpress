@@ -15,7 +15,7 @@
 		</div>
 		<?php endif; ?>
 		<header class="entry-header">
-			<?php if ( !is_single() ) the_post_thumbnail(); ?>
+			<?php if ( !is_single() || is_search() || is_archive() || is_category() || is_tag() || is_home() ) the_post_thumbnail(); ?>
 			<?php if ( is_single() ) : ?>
 			<h1 class="entry-title"><?php the_title(); ?></h1>
 			<?php else : ?>
@@ -32,6 +32,8 @@
 
 		<?php if ( is_search() || is_archive() || is_author() || is_tag() || is_home()  ) : // Only display Excerpts for Search ?>
 		<div class="entry-summary">
+
+
 			<?php the_excerpt(); ?>
 		</div><!-- .entry-summary -->
 		<?php else : ?>

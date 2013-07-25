@@ -46,3 +46,16 @@ function twentytwelve_entry_meta() {
 
 // Add 225x125 image size to excerpt thumbnails
 add_image_size('excerpt-thumbnail', 225, 125, true);
+
+
+// Remove the ... from excerpt and change the text
+function change_excerpt_more()
+{
+  function new_excerpt_more($more)
+    {
+    // Use .read-more to style the link
+      return '<span class="continue-reading"> <a href="' . get_permalink() . '">Continue Reading &raquo;</a></span>';
+    }
+  add_filter('excerpt_more', 'new_excerpt_more');
+}
+add_action('after_setup_theme', 'change_excerpt_more');

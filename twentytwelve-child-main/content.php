@@ -15,7 +15,7 @@
 		</div>
 		<?php endif; ?>
 		<header class="entry-header">
-			<?php if ( !is_single() ) the_post_thumbnail(); ?><!-- CG Removes featured image from single posts -->
+			<!--<?php if ( !is_single() ) the_post_thumbnail(); ?>--><!-- CG Removes featured image from single posts -->
 			<?php if ( is_single() ) : ?>
 			<h1 class="entry-title"><?php the_title(); ?></h1>
 			<?php else : ?>
@@ -33,6 +33,12 @@
 		<?php if ( is_search() || is_archive() || is_author() || is_tag() || is_home()  ) : // CG Displays excerpt for everything except post & page ?>
 		<div class="entry-summary">
 
+ 		<!-- Adds the 225x125 thumbnail to excerpts -->
+        	<div class="excerpt-thumb">
+            		<a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'twentytwelve' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark">
+            		<?php the_post_thumbnail('excerpt-thumbnail', 'class=alignleft'); ?>
+            		</a>
+        	</div>
 
 			<?php the_excerpt(); ?>
 		</div><!-- .entry-summary -->

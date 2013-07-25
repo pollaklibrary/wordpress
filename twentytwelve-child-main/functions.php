@@ -43,3 +43,6 @@ function twentytwelve_entry_meta() {
 	);
 }
 
+
+// Add 225x125 image size to excerpt thumbnails
+add_image_size('excerpt-thumbnail', 225, 125, true);

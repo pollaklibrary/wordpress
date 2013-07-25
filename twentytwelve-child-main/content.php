@@ -15,7 +15,7 @@
 		</div>
 		<?php endif; ?>
 		<header class="entry-header">
-			<?php if ( !is_single() || is_search() || is_archive() || is_category() || is_tag() || is_home() ) the_post_thumbnail(); ?>
+			<?php if ( !is_single() ) the_post_thumbnail(); ?><!-- CG Removes featured image from single posts -->
 			<?php if ( is_single() ) : ?>
 			<h1 class="entry-title"><?php the_title(); ?></h1>
 			<?php else : ?>
@@ -30,7 +30,7 @@
 			<?php endif; // comments_open() ?>
 		</header><!-- .entry-header -->
 
-		<?php if ( is_search() || is_archive() || is_author() || is_tag() || is_home()  ) : // Only display Excerpts for Search ?>
+		<?php if ( is_search() || is_archive() || is_author() || is_tag() || is_home()  ) : // CG Displays excerpt for everything except post & page ?>
 		<div class="entry-summary">
 
 

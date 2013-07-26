@@ -18,6 +18,7 @@ remove_filter( 'the_excerpt', 'st_add_widget' );
 
 //Removes categories from the post meta output on home page, archives, and single post.
 function twentytwelve_entry_meta() {
+	$categories_list = get_the_category_list( __( ', ', 'twentytwelve' ) );
 
 	$date = sprintf( '<a href="%1$s" title="%2$s" rel="bookmark"><time class="entry-date" datetime="%3$s">%4$s</time></a>',
 		esc_url( get_permalink() ),
@@ -32,14 +33,21 @@ function twentytwelve_entry_meta() {
 		get_the_author()
 	);
 
-		$utility_text = __( 'This entry was posted on %1$s<span class="by-author"> by %2$s</span>.', 'twentytwelve' );
+if ( is_single() && $categories_list ) {
+		$utility_text = __( 'Posted on %2$s<span class="by-author"> by %3$s.<br /><br />Posted in %1$s</span>.', 'twentytwelve' );
+	} else {
+		$utility_text = __( 'Posted on %2$s<span class="by-author"> by %3$s</span>.', 'twentytwelve' );
+	}
 
 	printf(
 		$utility_text,
+		$categories_list,
 		$date,
 		$author
 	);
 }
+
+
 
 
 // Add 225x125 image size to excerpt thumbnails

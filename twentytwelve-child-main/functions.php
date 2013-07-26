@@ -57,4 +57,3 @@ function change_excerpt_more()
   add_filter('excerpt_more', 'new_excerpt_more');
 }
 add_action('after_setup_theme', 'change_excerpt_more');
-

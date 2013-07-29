@@ -137,3 +137,10 @@ footer[role="contentinfo"] {
 	text-decoration:underline;
 	}
 
+/* CG: This is not working in IE */
+/* *** META CUSTOMIZATIONS *** */
+
+/* Hides the "Leave a Reply" link displayed in excerpts and in the post heading. But keeps comment box visible. */
+#content .comments-link {
+    display: none;
+}

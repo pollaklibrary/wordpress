@@ -2,6 +2,7 @@
 
 //Add in your custom code below here
 
+
 //Controls the size of the header 
 //Test if currently using, since not using the regular header function in header.php 
 function twentytwelvechild_custom_header_setup() {
@@ -48,13 +49,11 @@ if ( is_single() && $categories_list ) {
 }
 
 
-
-
-// Add 225x125 image size to excerpt thumbnails
+//Add 225x125 image size to excerpt thumbnails
 add_image_size('excerpt-thumbnail', 225, 125, true);
 
 
-// Remove the ... from excerpt and change the text
+//Remove the ... from excerpt and change the text
 function change_excerpt_more()
 {
   function new_excerpt_more($more)

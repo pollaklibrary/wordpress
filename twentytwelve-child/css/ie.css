@@ -5,8 +5,10 @@ Styles for older IE versions (previous to IE9).
 @import url("../../twentytwelve/css/ie.css");
 
 
+/* *** DO NOT ADD CUSTOM CSS BEFORE THIS LINE *** */
 
 
+/* *** SITE-WIDE CUSTOMIZATIONS *** */
 
 
 /* Match site background and padding to library website */
@@ -19,4 +21,15 @@ Styles for older IE versions (previous to IE9).
 	}
 
 
-
+/* Matches main body links to library website */
+	body.custom-font-enabled {
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	a {
+		color:#06c;
+		text-decoration:underline;
+	}
+	a:hover {
+		color:#f60;
+		text-decoration:underline;
+	}

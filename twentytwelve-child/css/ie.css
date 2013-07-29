@@ -40,14 +40,10 @@ Styles for older IE versions (previous to IE9).
 
 /* Match site padding to library website, makes wrapper same exact width as header */
 	body .site {
-		*/ padding: 0 40px;
-		padding: 0 2.857142857rem; */
-		padding: 20px 20px; /* CG Set back to 0px each once able to remove header padding and fix main margin issue */
-		padding: 0 0rem;
-		margin-top: 0px;
-		margin-top: 0rem;
+		padding-left: 20px; /* CG Set back to 0px each once able to remove header padding and fix main margin issue */
+		padding-right: 20px; /* CG Set back to 0px each once able to remove header padding and fix main margin issue */
+		margin-top: 10px; /* CG This controls space from top of browser */
 		margin-bottom: 0px;
-		margin-bottom: 0rem;
 		box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
 
 
@@ -72,9 +68,14 @@ Styles for older IE versions (previous to IE9).
 /* CG: This is not working in IE */
 /* Removed Top and Bottom Padding in Header */
 .site-header {
-	padding: 0px !important;
-	padding: 0px !important;
+	padding: 0 !important;
+	margin: 0 !important;
 	background-color:#0F3C73;
+}
+
+
+.site-content content {
+margin-top: 0;
 }
 
 

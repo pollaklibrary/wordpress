@@ -42,7 +42,7 @@ Styles for older IE versions (previous to IE9).
 	body .site {
 		*/ padding: 0 40px;
 		padding: 0 2.857142857rem; */
-		padding: 0 0px;
+		padding: 20px 20px; /* CG Set back to 0px each once able to remove header padding and fix main margin issue */
 		padding: 0 0rem;
 		margin-top: 0px;
 		margin-top: 0rem;
@@ -54,8 +54,8 @@ Styles for older IE versions (previous to IE9).
 /* CG: This is not working in IE */
 /* Adds padding between the main content areas and the wrapper, due to wrapper padding being set to zero */
 #main, #site-navigation {
-	margin-left: 24px;
-	margin-right: 24px;
+	margin-left: 24px !important;
+	margin-right: 24px !important;
 }
 
 /* Reduces padding between excerpts on Home and all Archive views */
@@ -72,8 +72,8 @@ Styles for older IE versions (previous to IE9).
 /* CG: This is not working in IE */
 /* Removed Top and Bottom Padding in Header */
 .site-header {
-	padding: 0;
-	padding: 0;
+	padding: 0px !important;
+	padding: 0px !important;
 	background-color:#0F3C73;
 }
 

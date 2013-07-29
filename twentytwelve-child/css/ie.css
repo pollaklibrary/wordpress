@@ -11,6 +11,11 @@ Styles for older IE versions (previous to IE9).
 /* *** SITE-WIDE CUSTOMIZATIONS *** */
 
 
+/* Set site to fixed width 985px */
+	.site {
+			max-width: 985px;
+		}
+
 /* Match site background and padding to library website */
 	body {
 		background:url("http://www.fullerton.edu/core/_default/i/bg-body.jpg") top repeat-x !important;
@@ -19,7 +24,6 @@ Styles for older IE versions (previous to IE9).
 		font-family: Arial, Helvetica, sans-serif;
 		font-size:14px;
 	}
-
 
 /* Matches main body links to library website */
 	body.custom-font-enabled {
@@ -33,3 +37,31 @@ Styles for older IE versions (previous to IE9).
 		color:#f60;
 		text-decoration:underline;
 	}
+
+/* Match site padding to library website, makes wrapper same exact width as header */
+	body .site {
+		*/ padding: 0 40px;
+		padding: 0 2.857142857rem; */
+		padding: 0 0px;
+		padding: 0 0rem;
+		margin-top: 0px;
+		margin-top: 0rem;
+		margin-bottom: 0px;
+		margin-bottom: 0rem;
+		box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
+
+
+/* CG: This is not working in IE */
+/* Adds padding between the main content areas and the wrapper, due to wrapper padding being set to zero */
+#main, #site-navigation {
+	margin-left: 24px;
+	margin-right: 24px;
+}
+
+/* Reduces padding between excerpts on Home and all Archive views */
+.site-content article {
+	border-bottom: 4px double #C7C6C3;
+	margin-bottom: 52px;
+	margin-bottom: 3.71428571rem;
+
+}

@@ -65,3 +65,22 @@ Styles for older IE versions (previous to IE9).
 	margin-bottom: 3.71428571rem;
 
 }
+
+
+/* *** HEADER CUSTOMIZATIONS *** */
+
+/* CG: This is not working in IE */
+/* Removed Top and Bottom Padding in Header */
+.site-header {
+	padding: 0;
+	padding: 0;
+	background-color:#0F3C73;
+}
+
+
+/* *** FOOTER CUSTOMIZATIONS ***  */
+
+/* Expands footer width to 985 pixels */
+footer[role="contentinfo"] {
+	max-width: 985px; */ Modify width */
+}

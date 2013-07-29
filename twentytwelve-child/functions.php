@@ -64,3 +64,14 @@ function change_excerpt_more()
   add_filter('excerpt_more', 'new_excerpt_more');
 }
 add_action('after_setup_theme', 'change_excerpt_more');
+
+
+// remove ie css from twentytwelve theme
+function mytheme_dequeue_styles() {
+   wp_dequeue_style( 'twentytwelve-ie' );
+ }
+ add_action( 'wp_enqueue_scripts', 'mytheme_dequeue_styles', 11 );
+//add new from child theme
+wp_enqueue_style( 'mytheme-ie', get_stylesheet_directory_uri() . '/css/ie.css', array( 'twentytwelve-style' ), '1.0' );
+$wp_styles->add_data( 'mytheme-ie', 'conditional', 'lt IE 9' );
+

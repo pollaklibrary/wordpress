@@ -1,7 +1,7 @@
 /*
-Theme Name:     Twenty Twelve Child Main
-Theme URI:      https://github.com/pollaklibrary/Wordpress/tree/master/twentytwelve-child-main
-Description:    Main library child theme for the Twenty Twelve theme
+Theme Name:     Twenty Twelve Child
+Theme URI:      https://github.com/pollaklibrary/wordpress/tree/master/twentytwelve-child
+Description:    Library child theme for the Twenty Twelve theme
 Author:         Colleen Greene (cgreene@fullerton.edu)
 Author URI:     http://www.library.fullerton.edu/about/profiles/cgreene/
 Template:       twentytwelve
@@ -68,7 +68,6 @@ Version:        3.5.2
 }
 
 
-
 /* Reduces padding between excerpts on Home and all Archive views */
 .site-content article {
 	border-bottom: 4px double #C7C6C3;
@@ -77,6 +76,18 @@ Version:        3.5.2
 
 }
 
+/* continue reading class for excerpts */
+.continue-reading {
+
+}
+
+/* post thumbnail classes for excerpts */
+.excerpt-thumb {
+
+}
+.excerpt-thumb img {
+	float: left;
+}
 
 
 

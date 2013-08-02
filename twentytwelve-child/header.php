@@ -54,7 +54,7 @@
 		<!-- Header Image Map to Match Library Website Branding -->
 		<div style="text-align:center; width:985px; margin-left:auto; margin-right:auto;">
 		<img id="Image-Maps_3201307121751264" src="http://www.library.fullerton.edu/_resources/img/libraryblog-header.png" usemap="#Image-Maps_3201307121751264" width="985" height="122" alt="" />
-		<map id="_Image-Maps_3201307121751264" name="Image-Maps_3201307121751264">
+		<map id="Image-Maps_3201307121751264" name="Image-Maps_3201307121751264">
 		<area shape="rect" coords="10,10,225,60" href="http://www.library.fullerton.edu/" alt="Pollak Library" title="Pollak Library"    />
 		<area shape="rect" coords="19,87,114,117" href="http://www.library.fullerton.edu/research/" alt="Library Research" title="Library Research"    />
 		<area shape="rect" coords="118,87,206,117" href="http://www.library.fullerton.edu/services/" alt="Library Services" title="Library Services"    />

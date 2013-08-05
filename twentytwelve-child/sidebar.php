@@ -15,15 +15,10 @@
 
 		<!-- START HARD-CODED CONTENT -->
 			<!-- Help & Hours Icons --> 
-			<!-- Temporarily using an image map since IE won't render image + text link -->
-			<div>
-				<img id="Image-Maps_6201307291751561" src="http://www.library.fullerton.edu/_resources/img/libraryblog-icon-hours-help-image-map.png" usemap="#Image-Maps_6201307291751561" width="190" height="36" alt="" />
-				<map id="Image-Maps_6201307291751561" name="Image-Maps_6201307291751561">
-				<area shape="rect" coords="3,0,82,31" href="http://www.library.fullerton.edu/visiting/hours.php" alt="Pollak Library Hours" title="Pollak Library Hours"    />
-				<area shape="rect" coords="93,0,172,31" href="http://www.library.fullerton.edu/services/ask.php" alt="Get Live Help" title="Get Live Help"    />
-				<area shape="rect" coords="188,34,190,36" href="http://www.image-maps.com/index.php?aff=mapped_users_6201307291751561" alt="Image Map" title="Image Map" />
-				</map>
-			</div>
+			<p id="iconHoursHelp">
+				<a id="lnkHours" title="Library Hours" href="http://www.library.fullerton.edu/visiting/hours.php">Library<br/>Hours</a>
+				<a id="lnkChat" title="Live Help" href="http://www.library.fullerton.edu/services/ask.php" target="_top">Get<br/>Live Help</a>
+			</p>
 
 			<p>&nbsp;</p>
 			<!-- social media icons -->

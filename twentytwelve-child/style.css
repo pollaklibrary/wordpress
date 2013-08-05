@@ -26,6 +26,8 @@ Version:        3.5.2
 	.ie .site {
 			max-width: 985px;
 		   }
+	}
+
 /* Match site background and padding to library website */
 	body {
 		background:url("http://www.fullerton.edu/core/_default/i/bg-body.jpg") top repeat-x !important;

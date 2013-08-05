@@ -4,7 +4,7 @@ The files contained in these directories are the work of the Pollak Library at C
 
 Child theme for the Wordpress portion of the Pollak Library website. Custom child theme built on the Twenty Twelve framework, developed by Colleen Greene, to match the look and feel of our main website.
 
-If our scripts can be of use to you, please feel free to borrow, with proper attribution as noted in the header comments for each file.
+If this theme can be of use to you, please feel free to borrow, with proper attribution.
 
 We provide NO WARRANTY; use at your own risk.
 

@@ -47,6 +47,7 @@ Styles for older IE versions (previous to IE9).
 		margin-top: 10px; /* CG This controls space from top of browser */
 		margin-bottom: 0px;
 		box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
+	}
 
 
 /* CG: This is not working in IE */

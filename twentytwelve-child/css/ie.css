@@ -40,8 +40,8 @@ Styles for older IE versions (previous to IE9).
 
 /* Match site padding to library website, makes wrapper same exact width as header */
 	body .site {
-		padding-left: 20px; /* CG Set back to 0px each once able to remove header padding and fix main margin issue */
-		padding-right: 20px; /* CG Set back to 0px each once able to remove header padding and fix main margin issue */
+		padding-left: 0px; 
+		padding-right: 0px; 
 		padding-top: 0px;
 		padding-bottom: 0px;
 		margin-top: 10px; /* CG This controls space from top of browser */

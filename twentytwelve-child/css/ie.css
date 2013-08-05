@@ -1,5 +1,10 @@
-/*
-Styles for older IE versions (previous to IE9).
+/* 
+File Name:      Twenty Twelve Child Internet Explorer Style Sheet
+Theme URI:      https://github.com/pollaklibrary/wordpress/tree/master/twentytwelve-child/css/ie.css
+Description:    Library IE styles for child Twenty Twelve theme
+Author:         Colleen Greene (cgreene@fullerton.edu)
+Author URI:     http://www.library.fullerton.edu/about/profiles/cgreene/
+Note:		  Twenty Twelve requires special ie.css since responsible mobile-first platform does not by default support IE
 */
 
 @import url("../../twentytwelve/css/ie.css");

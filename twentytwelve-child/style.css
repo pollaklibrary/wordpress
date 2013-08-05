@@ -52,7 +52,7 @@ Version:        3.5.2
 
 /* Match site padding to library website, makes wrapper same exact width as header */
 	body .site {
-		*/ padding: 0 40px;
+		/* padding: 0 40px;
 		padding: 0 2.857142857rem; */
 		padding: 0 0px;
 		padding: 0 0rem;

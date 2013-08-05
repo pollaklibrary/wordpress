@@ -84,7 +84,7 @@ Note:		  Twenty Twelve requires special ie.css since responsible mobile-first pl
 
 /* Expands footer width to 985 pixels */
 footer[role="contentinfo"] {
-	max-width: 985px; */ Modify width */
+	max-width: 985px; /* Modify width */
 }
 
 

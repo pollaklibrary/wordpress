@@ -129,9 +129,11 @@ footer[role="contentinfo"] {
 .widget-area .widget a{
 	color:#06c;
 	}
+.widget-area .widget a {
+	text-decoration: none;
+}
 .widget-area .widget a:hover {
 	color:#f60;
-	text-decoration:underline;
 	}
 
 /* *** META CUSTOMIZATIONS *** */

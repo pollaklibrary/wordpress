@@ -160,6 +160,16 @@ footer[role="contentinfo"] {
 	}
 
 
+/* Changes text field and button font colors on the Jetpack Email Subscribe widget */
+#subscribe-email input {
+    color: #000000;
+    border: 2px;
+}
+input, button, select, textarea {
+    color: #000000;
+}
+/* End changes to Jetpack Email Subscribe widget */
+
 
 
 

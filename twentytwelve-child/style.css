@@ -160,18 +160,12 @@ footer[role="contentinfo"] {
 	}
 
 
-/* Changes text field and button font colors on the Jetpack Email Subscribe widget */
+/* ** Changes styles on the Jetpack Email Subscribe widget** */
 
-
-.jetpack_subscription_widget input[type="submit"] {
-     /* Your custom CSS rules here */
+/* Widget background color */
+.jetpack_subscription_widget {
+     background: #CCCCCC;
 }
-#subscribe-blog-blog_subscription-2 input[type="submit"] {
-       background: #666 !important;
-       border: 2x !important;
-       color: #fff;
-}
-
 
 
 /* End changes to Jetpack Email Subscribe widget */

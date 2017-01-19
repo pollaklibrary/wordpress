@@ -163,7 +163,7 @@ footer[role="contentinfo"] {
 /* ** Changes styles on the Jetpack Email Subscribe widget** */
 
 /* Widget background color */
-.jetpack_subscription_widget {
+.widget-area .jetpack_subscription_widget {
      background: #CCCCCC;
 }
 

@@ -167,8 +167,8 @@ footer[role="contentinfo"] {
      /* Your custom CSS rules here */
 }
 #subscribe-blog-blog_subscription-2 input[type="submit"] {
-       background: #666;
-       border: none;
+       background: #666 !important;
+       border: 2x !important;
        color: #fff;
 }
 

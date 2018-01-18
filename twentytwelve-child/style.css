@@ -99,7 +99,8 @@ Version:        3.5.2
 .site-header {
 	padding: 0;
 	padding: 0;
-	background-color:#0F3C73;
+	background-color: #01274c !important;
+	color: #f7f7f7 !important;
 }
 
 
@@ -158,6 +159,18 @@ footer[role="contentinfo"] {
 .widget-area .widget a:hover {
 	color:#f60;
 	}
+
+
+/* ** Changes styles on the Jetpack Email Subscribe widget** */
+
+/* Widget background color */
+#blog_subscription-2 .widget .jetpack_subscription_widget {
+     background: #CCCCCC !important;
+}
+
+/* End changes to Jetpack Email Subscribe widget */
+
+
 
 
 /* *** META CUSTOMIZATIONS *** */
@@ -290,3 +303,11 @@ footer[role="contentinfo"] {
 .clearfix {display:inline-block}
 * html .clearfix {height:1%}
 .clearfix {display:block}
+
+
+/* Web Buttons */
+a.medBlue, a.button.medBlue, a.pill.medBlue {
+    background-color: #0059a2 !important;
+    color: #fff !important;
+    border: solid 1px #0059a2;
+}

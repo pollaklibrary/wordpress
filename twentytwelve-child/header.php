@@ -50,29 +50,17 @@
 
 <div id="page" class="hfeed site">
 	<header id="masthead" class="site-header" role="banner">
+		<hgroup>
+			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
+		</hgroup>
 
-		<!-- Header Image Map to Match Library Website Branding -->
-		<div style="text-align:center; width:985px; margin-left:auto; margin-right:auto;">
-		<img id="Image-Maps_3201307121751264" src="http://www.library.fullerton.edu/_resources/img/libraryblog-header.png" usemap="#Image-Maps_3201307121751264" width="985" height="122" alt="" />
-		<map id="Image-Maps_3201307121751264" name="Image-Maps_3201307121751264">
-		<area shape="rect" coords="10,10,225,60" href="http://www.library.fullerton.edu/" alt="Pollak Library" title="Pollak Library"    />
-		<area shape="rect" coords="19,87,114,117" href="http://www.library.fullerton.edu/research/" alt="Library Research" title="Library Research"    />
-		<area shape="rect" coords="118,87,206,117" href="http://www.library.fullerton.edu/services/" alt="Library Services" title="Library Services"    />
-		<area shape="rect" coords="210,86,283,116" href="http://www.library.fullerton.edu/visiting/" alt="Visiting the Library" title="Visiting the Library"    />
-		<area shape="rect" coords="285,87,347,117" href="http://www.library.fullerton.edu/about/" alt="About the Library" title="About the Library"    />
-		<area shape="rect" coords="354,84,416,114" href="http://www.library.fullerton.edu/giving/" alt="Giving to the Library" title="Giving to the Library"    />
-		<area shape="rect" coords="476,87,727,117" href="http://libraryblogs.fullerton.edu" alt="http://libraryblogs.fullerton.edu" title="http://libraryblogs.fullerton.edu"    />
-		<area shape="rect" coords="983,120,985,122" href="http://www.image-maps.com/index.php?aff=mapped_users_3201307121751264" alt="Image Map" title="Image Map" />
-		</map>
-		</div>
 
-		<!-- Not using Wordpress header function since using above image map instead. -->
-		<!--<?php $header_image = get_header_image();
-		if ( ! empty( $header_image ) ) : ?>
-			<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo esc_url( $header_image ); ?>" class="header-image" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="" /></a>
-		<?php endif; ?>-->
-
+		<?php if ( get_header_image() ) : ?>
+		<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php header_image(); ?>" class="header-image" width="<?php echo esc_attr( get_custom_header()->width ); ?>" height="<?php echo esc_attr( get_custom_header()->height ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" /></a>
+		<?php endif; ?>
 	</header><!-- #masthead -->
+
 
 		<!-- Moved default site navigation below the header -->
 		<nav id="site-navigation" class="main-navigation" role="navigation">
